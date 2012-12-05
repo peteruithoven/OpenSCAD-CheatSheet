@@ -1,0 +1,85 @@
+body {
+	font-size: 11pt;
+	font-family: "UbuntuMonoRegular", "Ubuntu Mono", 'courier new', monospace, sans-serif;
+	padding: 10px;
+	color: #999;
+}
+a{
+	color: #447FFF;
+}
+h1 {
+  font-family: "UbuntuMonoBold", "Ubuntu Mono", 'courier new', monospace, sans-serif;
+	color: #DEBA00;
+	margin: 0 0 10px 0;
+	font-weight: normal;
+	font-style: normal;
+}
+h2 {
+  font-family: "UbuntuMonoBold", "Ubuntu Mono", 'courier new', monospace, sans-serif;
+	color: #79A22E;
+	margin: 0 0 10px 0;
+	font-weight: normal;
+	font-style: normal;
+	font-weight: normal;
+	font-style: normal;
+}
+
+footer {
+	clear: both;
+	float: right;
+	font-size: 9pt;
+	margin: 0 10px 10px 0;
+}
+.clear {
+	clear: both;
+}
+
+section {
+	float: left;
+}
+section section article {
+	float: none;
+}
+
+article {
+	background: #FFFFDD;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding: 8px 10px 10px 10px;
+	float: left;
+	margin: 0 10px 10px 0;
+	border: 1px solid #DEBA00;
+}
+article.info {
+	background: #fff;
+	border: 1px solid #ddd;
+}
+article.info h2 {
+	color: #bbb;
+}
+
+code {
+	display: block;
+	margin: 0 0 0.5em 0;
+	
+	font-family: "UbuntuMonoRegular", "Ubuntu Mono", 'courier new', monospace, sans-serif;
+	font-size: 11pt;
+	color: #000;
+}
+
+dt code {
+	display: inline;
+}
+dt {
+	float: left;
+	clear: left;
+}
+dd {
+	margin: 0 0 .5em 1em;
+}
+ul {
+	margin: 0 0 0.5em;
+  padding: 0 1em;
+}
+

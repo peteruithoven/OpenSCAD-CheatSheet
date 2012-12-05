@@ -24,16 +24,6 @@ h2 {
 	font-style: normal;
 }
 
-footer {
-	clear: both;
-	float: right;
-	font-size: 9pt;
-	margin: 0 10px 10px 0;
-}
-.clear {
-	clear: both;
-}
-
 section {
 	float: left;
 }
@@ -76,10 +66,29 @@ dt {
 	clear: left;
 }
 dd {
-	margin: 0 0 .5em 1em;
+	margin: 0 0 .5em 2em;
 }
 ul {
 	margin: 0 0 0.5em;
   padding: 0 1em;
 }
 
+footer {
+	clear: both;
+	float: right;
+	font-size: 9pt;
+	margin: 0 10px 10px 0;
+	text-align: right;
+}
+.clear {
+	clear: both;
+}
+
+.fork {
+	position: absolute;
+	top: 0;
+	right:0;
+}
+.fork img{
+	border: none;
+}
